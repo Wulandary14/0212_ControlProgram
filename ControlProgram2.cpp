@@ -26,3 +26,9 @@ cin >> nilMT;
 //if (rerata >= 60)
 //      status = "lolos";
 //else
+//  status = "gagal";
+rerata = Rata_rata(nilBI, nilMT);
+//status = Status_Lulus(rerata);
+
+cout << "Status Kelulusan = "<< status_lulus(rerata)<<", dengan nilai rerata = "<<rerata<<endl;
+}
